@@ -1,0 +1,196 @@
+<html>
+	<head>
+		<title>Task 2 CSS</title>	
+
+		<style>
+
+			.whiteArial {
+				font-family: arial;
+				color: white;
+			}
+
+			#orangeLine {
+				height: 65px;
+			}
+
+			#orangeLine > div {
+				background-color: orange; 
+				width: auto; 
+				height: 4px
+			}
+
+			#main {
+				margin-left: auto; 
+				margin-right: auto; 
+				width: 700px;
+			}
+
+			#image1 {
+				float:left;	
+			}
+
+			#welcomeText {
+				margin-left: auto; 
+				width: 540px; 
+				float: right;
+			}
+
+			.bold {
+				font-family: arial; 
+				font-weight: bold; 
+				color: white;
+			}
+
+			.italic {
+				font-family: arial; 
+				font-style: italic; 
+				color: white;
+			}
+
+			.underline {
+				font-family: arial; 
+				color: white; 
+				text-decoration: underline;
+			}
+
+			#arrowDiv {
+				position: relative; 
+				width: 700px; 
+				text-align: center; 
+				top: 75px;
+			}
+
+			.floatLeft {
+				float: left;
+			}
+
+			#arrowText {
+				float:left; 
+				font-family: arial; 
+				color: white;
+			}
+
+			#listDiv {
+				position: relative; 
+				font-family: arial; 
+				color: white; 
+				top: 150px; 
+				clear: both;
+			}
+
+		</style>		
+	</head>
+
+	<body style="background-color:black;">
+		<!-- header -->
+		<div>
+			<img src="images/BLKBX.jpg"/>
+			<span class="whiteArial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME | CONTACT</span>
+		</div>
+		<div id="orangeLine">
+			<div></div>
+		</div>
+		<div id="main">
+			<img id="image1" src="images/number1.jpg"/>
+			<div id="welcomeText">
+				<span class="whiteArial">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to HTML layout 1! We are going to play with a few basic things here, mainly basic markup for layouts. We will not be using and CSS for this exercise. All styling and formatting should be done only with basic HTML tags. For example, this should be
+				</span> 
+				<span class="bold">BOLD.</span>
+				<span class="whiteArial">This one should be</span> 
+				<span class="italic"> italicized </span>
+				<span class="whiteArial">This one will be </span>
+				<span class="underline">underlined.</span>
+
+				<p class="whiteArial">
+					Now let's try something tricky.
+					<span class="bold italic underline">
+						Make this entire setence bold, italicized, AND underlined! 
+					</span>
+				</p>
+			</div>
+
+			<div id="arrowDiv">
+				<img class="floatLeft" src="images/arrowleft.jpg"/>
+				<span id="arrowText">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The content area should be 700px wide.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>
+					(and this should be centered)
+				</span>
+				<img class="floatLeft" src="images/arrowright.jpg"/>	
+			</div>
+
+			<div id="listDiv">
+				Here is a list of more things we are going to cover as we go down the page:
+				<ul>
+					<li>create this as an unordered list</li>
+					<li>instead of these dashes, it is fine to use the default bullet style for each list item</li>	
+			
+					<li>
+						<span style="font-family: times new roman; color: white;"> Try this one in a different font and </span>
+						<span style="font-family: times new roman; color:yellow; font-size:25;"> this just a little larger and brighter!</span>
+					</li>
+				<li> If I click <a href="http://www.blkbxcg.com" target="_blank" style="color:white;">here</a>, it should take me to http://www.blkbxcg.com in a new window </li>
+				<li>under this list, we are going to use a horizontal rule to divide the next section</li>
+				<li>under the horizontal rule, we are going to create a table. It will include:</li>
+					<ol type="a">
+						<li>4 rows (each row is 40 px tall)</li>
+						<li>2 columns (the first column 100px, and the second column 600px)</li>
+						<li>last row will have 7 columns</li>
+						<li>(oh, and this is a nested ordered list inside the parent unordered list!)</li>
+					</ol>
+				<li>under the table, we are going to float image 2 to the right</li>
+			</div>
+
+			<div style="height: 65px;">
+				<div style="position: relative; top: 200px; background-color: grey; width: 700px; height: 4px"></div>
+			</div>
+
+			<div style="position: relative; top: 200px; height: 220px; width:700px; border:2px solid white;">
+				<div style="height: 40; width:96; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:596; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:96; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:596; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:96; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:596; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:96; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:596; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:96; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:96; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:96; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:96; border:2px solid whitel float:left;">
+				</div>	
+				<div style="height: 40; width:96; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:96; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:96; border:2px solid white; float:left;">
+				</div>	
+				<div style="height: 40; width:96; border:2px solid whitel float:left;">
+				</div>
+				<div style="height: 40; width:96; border:2px solid whitel float:left;">
+				</div>		
+			</div>	
+
+			<div>
+				<img src="images/number2.jpg" style="position: relative; float: right; top: 300px;"/>
+			</div>
+
+			<div style="position: relative; top:2000; clear: both;">
+				<a href="#" style="font-family: arial; color: white; ">This anchor</a> 
+				<span style="font-family: arial; color: white;">&nbsp;should take me back to the first paragraph at the very top of the page.</span>
+			</div>	
+		</div>
+	</body>
+</html>		
